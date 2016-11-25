@@ -1,0 +1,30 @@
+Time-At version 0.01
+====================
+
+Time::At is a small wrapper around the at(1) timespec parser, so it can be
+used in Perl programs.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+None.
+
+COPYRIGHT AND LICENCE
+
+The Perl- / XS-specific bits are Copyright (C) 2016 Dickon Hood, all other
+files are copyright of their respective authors, and are under the GPLv2.
+The test script t/Time-At.t is a slightly-modified version of the test
+script which comes with at's source code, and runs the same success tests.
+
+This library is free software; you can redistribute it and/or modify it
+under the terms of the GPLv2 or later.
+
+
